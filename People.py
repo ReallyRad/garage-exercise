@@ -26,6 +26,11 @@ class Mechanic(Person):
 
     def __init__(self, skills):
         self.skills = skills
+        self.assignment = 0
+        self.agenda = 0
 
     def wake_up(self):
         pass
+
+    def repair_vehicle(self, vehicle):
+        vehicle.repair()
