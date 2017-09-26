@@ -18,7 +18,8 @@ class Garage:
 
     def say_thanks(self):
         # TODO for Levan
-        pass
+        if self.accept_transaction():
+            print("Thanks for trusting our garage! Come back next morning as if nothing had happened")
 
     def add_vehicle(self, vehicle):
         self.vehicles.append(vehicle)
