@@ -9,19 +9,22 @@ class Person:
 
 
 class Client(Person):
-    global Vehicle
     def wake_up(self):
-        if Vehicle.crash:
-            return drive_vehicle
+        if Vehicle.working:
+            return self.drive_vehicle
         else:
-            return Vehicle.sayfixed
+            return look_for_garage
+
+    def look_for_garage(self):
+        for g in garage_list:
+            if g Garage.check_availability:
+                
 
     def drive_vehicle(self):
-        good_conditions = 6
+        #need a good condition variable in class variable
         good_conditions =- 1
         if good_conditions == 0:
             return Vehicle.crash
-
 
 
 
