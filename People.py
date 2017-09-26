@@ -9,15 +9,20 @@ class Person:
 
 
 class Client(Person):
-    #TODO for Franco
+    global Vehicle
     def wake_up(self):
-        pass
-    # check if broken vehicles
-    # if broken vehicles, look for garage
-    # else drive your car
+        if Vehicle.crash:
+            return drive_vehicle
+        else:
+            return Vehicle.sayfixed
 
     def drive_vehicle(self):
-        pass
+        good_conditions = 6
+        good_conditions =- 1
+        if good_conditions == 0:
+            return Vehicle.crash
+
+
 
 
 class Mechanic(Person):
