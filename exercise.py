@@ -25,7 +25,22 @@ class Garage:
 
 days_elapsed = 0
 #bunch of initializiations for our simulation
+
 #TODO For Alberto
+import People
+import Vehicles
+toni_mech = People.Mechanic(name='Toni', skills={'Car': 2, 'Motorbike': 1, 'Bicycles': 0.5})
+george_mech = People.Mechanic(name='George', skills={'Car': 1, 'Motorbike': 1, 'Bicycles': 1})
+toyota = Vehicles.Car()
+ford = Vehicles.Car()
+honda = Vehicles.Motorbike()
+yamaha = Vehicles.Motorbike()
+orbea = Vehicles.Bicycles()
+bwin = Vehicles.Bicycles()
+paul_client = People.Client(name='Paul', vehicles=[toyota, orbea])
+peter_client = People.Client(name='Peter', vehicles=[honda, bwin, yamaha])
+repair_everything_garage = Garage([toni_mech, george_mech])
+
 
 while True: #loop for each day
     #TODO for Maria

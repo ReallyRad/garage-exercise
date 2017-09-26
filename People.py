@@ -1,8 +1,9 @@
 class Person:
     #TODO for Alberto
     # people, wake up, go to work or look for garage, have vehicles
-    def __init__(self, name, vehicles=None, ):
+    def __init__(self, name, vehicles=None):
         self.name = name
+        self.vehicles = vehicles
 
     def wake_up(self):
         raise NotImplementedError('implement in the child class')
