@@ -8,13 +8,15 @@ class Garage:
         # TODO for Levan
         pass
 
-    def check_availbaility(self):
-        #TODO for Roman
-        pass
+    def check_availbaility(self,vehicle):
+        for skills in self.mechanics.skills:
+            if skills:
+                self.accept_transaction()
+            else:
+                self.reject()
 
     def reject(self):
-        #TODO for Roman
-        pass
+        print("We are sorry we can't fix your vehicle, please try another garage")
 
     def say_thanks(self):
         # TODO for Levan
