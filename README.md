@@ -1,4 +1,4 @@
-we are running a small repair shop, called . Our shop can repair a bunch of vehicles, from cars to motorbikes to bicycles.
+we are running a small repair shop. Our shop can repair a bunch of vehicles, from cars to motorbikes to bicycles.
 We have two employees in our shop, called Greg and Bob. Greg is a seasonned mechanic while Bob is just an apprentice.
 Bob is only able to fix bicycles by himself, and Greg will take twice as much time as when his apprentice is not available.
 It takes a seasonned mechanic 1 day to fix a car, and half a day to fix a motorbike and a quarter day to fix bicycles. 
