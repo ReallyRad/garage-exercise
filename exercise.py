@@ -8,9 +8,9 @@ class Garage:
         # TODO for Levan
         pass
 
-    def check_availbaility(self,vehicle):
+    def check_availbaility(self, vehicle):
         for skills in self.mechanics.skills:
-            if skills:
+            if skills is vehicle:
                 self.accept_transaction()
             else:
                 self.reject()
